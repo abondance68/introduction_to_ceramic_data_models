@@ -1,7 +1,7 @@
 
 # Project : A demo about Ceramic Network Data Model
 
-Ceramic Network is a Peer to Peer Network for Composable Data.\\
+Ceramic Network is a Peer to Peer Network for Composable Data.\
 Ceramic Network makes it possible for Web3 developers to build data-rich Web3 apps without the need for a traditional database(nosql, etc...). \
 It unlocks data composability and portability accross every app within the web3 ecosystem.
 
