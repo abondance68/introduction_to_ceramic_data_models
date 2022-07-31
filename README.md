@@ -6,9 +6,9 @@ Ceramic Network makes it possible for Web3 developers to build data-rich Web3 ap
 It unlocks data composability and portability accross every app within the web3 ecosystem.
 
 Apps connect to Ceramic decentralized data nertwork via an open API to: 
-        -Store data
-        -Retrieve data
-        -Modify data
+         * Store data
+         * Retrieve data
+         * Modify data
         
 
 Web3 developers can learn more about the protocol [here](https://developers.ceramic.network/learn/welcome/)
