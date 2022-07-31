@@ -1,0 +1,26 @@
+{
+  "name": "intro_to_ceramic_data_models",
+  "version": "1.0.0",
+  "description": "A simple nodejs app to store and retrieve data on a local ceramic node",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "LK",
+  "private": "true",
+  "scripts": {
+    "dev": "node --experimental-json-modules index.js",
+    
+  },
+  "dependencies": {
+    "@ceramicnetwork/http-client": "^2.3.0",
+    "@glazed/datamodel": "^0.3.1",
+    "@glazed/devtools": "^0.2.0",
+    "@glazed/did-datastore": "^0.3.2",
+    "dids": "^3.2.0",
+    "key-did-provider-ed25519": "^2.0.1",
+    "key-did-resolver": "^2.0.5",
+    "uint8arrays": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0"
+  }
+}

@@ -1,0 +1,49 @@
+Arguments: 
+  /snap/node/6488/bin/node /usr/share/yarn/bin/yarn.js add @ceramicnetwork/http-client @glazed/datamodel @glazed/devtools @glazed/did-datastore dids key-did-provider-ed25519 key-did-resolver uint8array
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/uint8array: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "intro_to_ceramic_data_models",
+    "version": "1.0.0",
+    "description": "A simple nodejs app to store and retrieve data on a local ceramic node",
+    "main": "index.js",
+    "license": "MIT",
+    "author": "LK",
+    "private": "true", 
+    "scripts" : { 
+      "dev": "node --experimental-json-modules index.js"
+    }
+  
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
