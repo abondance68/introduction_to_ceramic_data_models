@@ -7,7 +7,8 @@
   "author": "LK",
   "private": "true",
   "scripts": {
-    "dev": "node --experimental-json-modules index.js"
+    "dev": "node --experimental-json-modules index.js",
+    "lint" : "eslint ./"
   },
   "dependencies": {
     "@ceramicnetwork/http-client": "^2.3.0",
